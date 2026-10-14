@@ -14,6 +14,10 @@ Why: hiring is a buying signal for sales teams, and a clean role list saves job 
 ## Privacy
 No data is collected. The popup talks only to the five public ATS APIs. Permissions: `activeTab` + `scripting` (to read job-board links on the current page when you click). See [privacy.md](privacy.md).
 
+## Track companies automatically
+
+To get every new opening at a list of companies on a schedule (Slack/email/webhook), use the **[ATS Jobs Feed actor on Apify](https://apify.com/krasyn-side/ats-jobs-feed?utm_source=gh-ext)**, built from the same official ATS APIs (pay per result, about $1 per 1,000 jobs).
+
 ## Want every company at once?
 The [Startup Hiring Dataset](https://benkrasin.github.io/startup-hiring-data/?utm_source=gh-ext) has company-level hiring signals for 390 tech companies (32,510 roles) as CSV. It is also on [Gumroad](https://krasyn.gumroad.com/l/vyuqi) (PayPal accepted).
 
