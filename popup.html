@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hiring Signals</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="top">
+    <img src="icons/icon32.png" width="20" height="20" alt="">
+    <h1>Hiring Signals</h1>
+    <span id="source" class="source" hidden></span>
+  </header>
+
+  <form id="lookup" class="lookup" autocomplete="off">
+    <input id="slug" type="text" spellcheck="false" placeholder="company, e.g. ramp or lever:palantir" aria-label="Company slug or job-board URL">
+    <button type="submit">Look up</button>
+  </form>
+
+  <p id="status" class="status" role="status"></p>
+
+  <main id="result" hidden>
+    <section class="company">
+      <h2 id="company"></h2>
+      <a id="boardLink" target="_blank" rel="noopener noreferrer">View board ↗</a>
+    </section>
+
+    <section class="stats">
+      <div class="stat"><span id="statTotal" class="num"></span><span class="lbl">open roles</span></div>
+      <div class="stat"><span id="statRemote" class="num"></span><span class="lbl">remote</span></div>
+      <div class="stat"><span id="stat30" class="num"></span><span class="lbl">posted last 30d</span></div>
+      <div class="stat"><span id="statNewest" class="num small"></span><span class="lbl">newest posting</span></div>
+    </section>
+
+    <section>
+      <h3>By function</h3>
+      <ul id="categories" class="bars"></ul>
+    </section>
+
+    <section>
+      <div class="listhead">
+        <h3>Roles</h3>
+        <select id="filter" aria-label="Filter roles by function"><option value="">All functions</option></select>
+        <button id="csv" type="button" class="ghost">CSV export</button>
+      </div>
+      <ul id="jobs" class="jobs"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <a id="dataset" href="https://benkrasin.github.io/startup-hiring-data/?utm_source=chrome-ext" target="_blank" rel="noopener">Export all 390 companies' hiring signals (CSV) →</a>
+    <span class="fine">Data from public ATS job-board APIs. Nothing is collected.</span>
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

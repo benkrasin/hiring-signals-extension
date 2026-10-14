@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Hiring Signals — open roles for any company",
+  "short_name": "Hiring Signals",
+  "version": "0.1.0",
+  "description": "See any company's open roles from Greenhouse, Lever, Ashby, Workable & SmartRecruiters: counts by team, remote share, CSV export.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Hiring Signals",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src https://boards-api.greenhouse.io https://api.lever.co https://api.ashbyhq.com https://apply.workable.com https://api.smartrecruiters.com"
+  },
+  "minimum_chrome_version": "102"
+}
