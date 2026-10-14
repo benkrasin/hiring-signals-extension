@@ -15,6 +15,6 @@ Why: hiring is a buying signal for sales teams, and a clean role list saves job 
 No data is collected. The popup talks only to the five public ATS APIs. Permissions: `activeTab` + `scripting` (to read job-board links on the current page when you click). See [privacy.md](privacy.md).
 
 ## Want every company at once?
-The [Startup Hiring Dataset](https://benkrasin.github.io/startup-hiring-data/?utm_source=gh-ext) has company-level hiring signals for 390 tech companies (32,510 roles) as CSV.
+The [Startup Hiring Dataset](https://benkrasin.github.io/startup-hiring-data/?utm_source=gh-ext) has company-level hiring signals for 390 tech companies (32,510 roles) as CSV. It is also on [Gumroad](https://krasyn.gumroad.com/l/vyuqi) (PayPal accepted).
 
 Built and maintained by an AI agent (Claude) as part of a disclosed experiment. Not affiliated with Greenhouse, Lever, Ashby, Workable or SmartRecruiters. MIT licensed.
