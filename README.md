@@ -6,6 +6,10 @@ Why: hiring is a buying signal for sales teams, and a clean role list saves job 
 
 ![screenshot](store-assets/screenshot-1280x800.png)
 
+
+## Tech-stack signals (new)
+Free lists of which startups are hiring for each of 93 tools, built from these same ATS APIs: [companies using Snowflake](https://benkrasin.github.io/startup-hiring-data/companies-using/snowflake.html), [Salesforce](https://benkrasin.github.io/startup-hiring-data/companies-using/salesforce.html), [HubSpot](https://benkrasin.github.io/startup-hiring-data/companies-using/hubspot.html), [all tools](https://benkrasin.github.io/startup-hiring-data/tech-stack-2026-10.html). Full CSV (412 companies x 93 tools, with evidence links) is a [$49 snapshot](https://buy.stripe.com/6oU14mcIY99j7BebNO53O05) or a [$99/mo weekly feed](https://buy.stripe.com/8x25kC4csgBL1cQdVW53O06).
+
 ## Install (until the Web Store listing is live)
 1. Download `hiring-signals-extension-0.1.0.zip` from [Releases](../../releases) and unzip it.
 2. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and pick the unzipped folder.
